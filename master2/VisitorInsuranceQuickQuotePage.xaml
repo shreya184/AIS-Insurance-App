@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="master2.VisitorInsuranceQuickQuotePage" BackgroundColor="#F2F2F2" >
+	<ContentPage.Content>
+	<ScrollView>
+
+		<StackLayout>
+            <Grid>
+                <Label Text = "Coverage Start Date" Grid.Row = "0"  TextColor="#1B5C9C"></Label>
+                 <DatePicker x:Name = "CoverageStartDatePicker" Grid.Row = "1"></DatePicker>
+                <Label Text = "Coverage End Date" Grid.Row = "2" TextColor="#1B5C9C" ></Label>
+                <DatePicker x:Name = "CoverageEndDatePicker" Grid.Row = "3"></DatePicker>
+                <Label Text = "Enter U.S. Entry Date" Grid.Row = "4" TextColor="#1B5C9C" ></Label>
+                <DatePicker x:Name = "USEntryDatePicker" Grid.Row = "5"></DatePicker>
+                <Label Text = "Insured Inoformation" Grid.Row = "6" TextColor="#1B5C9C" ></Label>    
+            </Grid>    
+            <Grid x:Name="grid2">
+                <Label Text = "Primary" Grid.Row = "0" Grid.Column = "0" TextColor="#1B5C9C"></Label>
+               <!-- <Entry x:Name ="PrimaryAge" Grid.Row = "0" Grid.Column = "1" Placeholder = "Age"></Entry> -->
+				<DatePicker x:Name = "primayBirthdate" Grid.Row = "0" Grid.Column = "1"></DatePicker>	
+                <Picker Grid.Row = "1" Grid.Column = "0" x:Name="InsuranceOptionPicker" SelectedIndex="{Binding Insurances}" TextColor="#1B5C9C" Title="Select Option">
+                <Picker.Items>
+                    <x:String>Spouse</x:String> 
+                    <x:String>Child</x:String>
+                    <x:String>Other</x:String>
+                </Picker.Items>        
+            </Picker> 
+          <!--  <Entry x:Name ="SecondaryAge" Grid.Row = "1" Grid.Column = "1" Placeholder = "Age"></Entry> -->
+			<DatePicker x:Name = "secondaryBirthdate" Grid.Row = "1" Grid.Column = "1"></DatePicker>		
+            </Grid>
+            <Button Text = "Add Person" Clicked ="Handle_Clicked_AddPerson" x:Name="addPerson"></Button>
+            <Button x:Name="Next" Text = "Next" Clicked = "Handle_Clicked_Navigate_VisitorMedicalInsuranceQuickQuotePage"></Button>
+        </StackLayout>  
+
+
+        </ScrollView>
+
+
+	</ContentPage.Content>
+</ContentPage>

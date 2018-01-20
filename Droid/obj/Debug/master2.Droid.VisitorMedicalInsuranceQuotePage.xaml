@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="master2.VisitorMedicalInsuranceQuotePage" BackgroundColor="#F2F2F2">
+	<ContentPage.Content>
+	<StackLayout x:Name = "stacklayout"></StackLayout>
+	<!--<Label Text = "Get your Quote in 24 Hours on the same page" TextColor="#1B5C9C"></Label> 
+			-->
+
+	</ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="master2.SignUpPage" BackgroundColor="#F2F2F2"
+	Title = "SignUP">
+	<ContentPage.Content>
+		<StackLayout>
+        <Grid>    
+            
+	        <Label Grid.Column = "0" Grid.Row = "0" Text = "First Name:" TextColor="#1B5C9C" Margin="5,0,0,0"/> 
+	            
+	        <Entry Grid.Column = "1" Grid.Row = "0" Placeholder = " Enter Name" Margin="0,0,10,0" Grid.RowSpan="1" x:Name="firstName"/>
+
+	        <Label Grid.Column = "0" Grid.Row = "1" Text = "Last Name:" TextColor="#1B5C9C" Margin="5,0,0,0"/> 
+	            
+	        <Entry Grid.Column = "1" Grid.Row = "1" Placeholder = " Enter Name" Margin="0,0,10,0" x:Name="lastName"/>
+
+	        <Label Grid.Column = "0" Grid.Row = "2" Text = "Email:" TextColor="#1B5C9C" Margin="5,0,0,0"/> 
+	            
+	        <Entry Grid.Column = "1" Grid.Row = "2" Placeholder = "Enter Email" Margin="0,0,10,0"  x:Name="email" />
+
+					
+	     <Label Grid.Column = "0" Grid.Row = "3" Text = "Password:" TextColor="#1B5C9C" Margin="5,0,0,0"/>
+				
+	        <Entry Grid.Column = "1" Grid.Row = "3" Placeholder = "Password" Margin="0,0,10,0" x:Name="password"/>
+
+	        <Label Grid.Column = "0" Grid.Row = "4" Text = "Confirm Password:" TextColor="#1B5C9C" Margin="5,0,0,0"/>
+
+	        <Entry Grid.Column = "1" Grid.Row = "4" Placeholder = "Confirm Password" Margin="0,0,10,0" x:Name="confirmPassword"/>
+
+			<Label Grid.Column = "0" Grid.Row = "5" Text = "Phone:" TextColor="#1B5C9C" Margin="5,0,0,0"/>
+				
+	        <Entry Grid.Column = "1" Grid.Row = "5" Placeholder = "Phone Number" Margin="0,0,10,0" x:Name="phoneNumber"/>
+			<Label Grid.Column = "0" Grid.Row = "6" Text = "Gender:" TextColor="#1B5C9C" Margin="5,0,0,0"/>	
+	        <Picker Grid.Row = "6"  Grid.Column ="1" x:Name="GenderPicker" SelectedIndex="{Binding Gender}" Title="Select Gender"  Margin="0,0,10,0">
+                <Picker.Items>
+                    <x:String>Male</x:String> 
+                    <x:String>Female</x:String>
+                    <x:String>Other</x:String>
+                      
+                </Picker.Items>
+            </Picker> 
+
+    	</Grid>
+
+    		<Button Text = "Submit" 
+            	HorizontalOptions = "Center"
+            			Clicked = "SignUpUser"/>
+			<ActivityIndicator x:Name = "indicator" HorizontalOptions = "CenterAndExpand" Color = "#1B5C9C" Scale = "2" ></ActivityIndicator>		
+		
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

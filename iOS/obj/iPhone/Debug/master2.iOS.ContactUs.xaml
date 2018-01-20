@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="master2.ContactUs">
+	<ContentPage.Content>
+
+
+<StackLayout>
+            <Label Text = "Do you have Questions?" TextColor = "#1B5C9C" HorizontalOptions = "Center" Margin="0, 20, 0, 0"></Label>
+        <Label Text = "Contact Us" TextColor = "#1B5C9C" HorizontalOptions = "Center" Margin="0, 0, 0, 40"></Label>
+        <Grid x:Name="grid1" HorizontalOptions="CenterAndExpand">
+        <!--  <Grid.RowDefinitions>
+            <RowDefinition Height="105" />
+            <RowDefinition Height="105" />
+            <RowDefinition Height="105" />
+          </Grid.RowDefinitions> -->
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="70" />
+            <ColumnDefinition Width="220" />
+          <!--  <ColumnDefinition Width="30" />
+            <ColumnDefinition Width="70" /> -->
+          </Grid.ColumnDefinitions>
+            <Image Source = "phone.png" Grid.Column = "0" Grid.Row = "0" Margin="20, 0, 0, 0"></Image>
+            <Label Text = "(844)-AIS-6646" TextColor = "#1B5C9C" Grid.Column = "1" Grid.Row = "0" FontSize="18" VerticalTextAlignment="Center" x:Name="phone" ></Label>
+
+            <Image Source = "facebook.png" Grid.Column = "0" Grid.Row = "1" Margin="20, 0, 0, 0"></Image>
+            <Label Text = "Facebook" x:Name="facebook" TextColor = "#1B5C9C" Grid.Column = "1" Grid.Row = "1" FontSize="18" VerticalTextAlignment="Center" ></Label>
+
+            <Image Source = "fax.png" Grid.Column = "0" Grid.Row = "2" Margin="20, 0, 0, 0"></Image>
+            <Label Text = "281-769-1168" TextColor = "#1B5C9C" Grid.Column = "1" Grid.Row = "2" FontSize="18" VerticalTextAlignment="Center"></Label>
+
+            <Image Source = "email.png" Grid.Column = "0" Grid.Row = "3" Margin="20, 0, 0, 0" ></Image> 
+            <Label Text = "service@Aisusainc.com" TextColor = "#1B5C9C" Grid.Column = "1" Grid.Row = "3" FontSize="18" VerticalTextAlignment="Center" x:Name="email"></Label>
+
+            <Image Source = "linkedin.png" Grid.Column = "0" Grid.Row = "4" Margin="20, 0, 0, 0" ></Image>
+            <Label Text = "LinkedIn" x:Name="linkedin" TextColor = "#1B5C9C" Grid.Column = "1" Grid.Row = "4" FontSize="18" VerticalTextAlignment="Center"></Label>
+        </Grid>
+
+    </StackLayout>  
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="master2.BusinessInsuarance">
+	<ContentPage.Content>
+        <ScrollView>
+    <StackLayout>
+
+
+    <Image Source = "BusinessLogo.png"></Image>
+    <Label Text="Business Insuarance" FontSize="20" FontAttributes="Bold" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+    <Label Text="Advanced Insurance Services (AIS), Agency Inc. give businesses the means to protect themselves from the unexpected." FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"/>
+
+            <Label Text=""/>
+
+            <Label Text="Business insurance encompasses a wide range of coverage plans that protect businesses from losses due to any unforeseen events that may occur during the normal course of business." FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"/>
+
+            <Label Text="PROTECT YOUR BUSINESS" FontAttributes="Bold" Margin="5,0,0,0" TextColor="#1B5C9C" FontSize="20"/>
+            <Label Text="You can’t predict the future, only prepare for it. Your business is exposed to risk on a daily basis. Are you prepared for the worst? Business insurance is designed to protect your business from financial losses due to unforeseen problems such as lawsuits, weather related disasters, fire damage or property theft."
+                    
+                    FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"/>
+
+            <Label Text=""/>
+
+            <Label Text="AIS provides businesses with the following type of insurance protection."  FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"/>
+
+            <Label Text="CGL" FontAttributes="Bold" Margin="5,0,0,0" TextColor="#1B5C9C" FontSize="20"/>
+            <Label Text="A Commercial General Liability, or CGL, policy protects businesses against liability claims for bodily injury and property damage occurring on their premises or as a result of their operations, products, etc."
+                    
+                    FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"/>
+
+            <Label Text="E And O"  FontAttributes="Bold" Margin="5,0,0,0" TextColor="#1B5C9C" FontSize="20"/>
+
+            <Label Text="Errors and Omissions insurance plans, also known as Professional Liability insurance (PLI) and Professional Indemnity insurance (PII), protect professional advice and service providing companies and individuals from bearing the full cost of defending against a negligence claim made against them, as well as covering damages awarded in such a civil lawsuit."
+                    FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"/>
+
+            <Label Text="Workers Compensation" FontAttributes="Bold" Margin="5,0,0,0" TextColor="#1B5C9C" FontSize="20"/>
+
+            <Label Text="Workers’ compensation insurance provides wage replacement and medical benefits to employees injured during the course of employment. In exchange, the employee relinquishes his right to sue his or her employer for negligence." 
+
+                    FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"/>
+
+            <Label Text="Umbrella" FontAttributes="Bold" Margin="5,0,0,0" TextColor="#1B5C9C" FontSize="20"/>
+            <Label Text="An umbrella policy is liability insurance that covers the holder for any additional expenses that exceed the liability limits on a primary liability insurance policy." 
+                    FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"/>
+
+            <Label Text="Bond" FontAttributes="Bold" Margin="5,0,0,0" TextColor="#1B5C9C" FontSize="20"/>
+            <Label Text="Bond insurance, also known as financial guaranty insurance, is a type of business insurance in which an insurance company agrees to pay the scheduled payments of interest and principal on a bond in the event of a payment default by the bond’s issuer."
+
+            FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"/>
+
+            <Label Text=""/>
+
+            <Label Text="The cost of business insurance plans can vary. Rates depend on the size of your company, the nature of your business, and the type of coverage you require." FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"/> 
+            <Label Text="Affordable Business Insurance" FontAttributes="Bold" Margin="5,0,0,0" TextColor="#1B5C9C" FontSize="20"/>
+            <Label Text="Advanced Insurance Services (AIS), Agency Inc. is a fully licensed, nationally recognized insurance company. We’re an independent insurance agency, which gives us the ability to offer you many different options when it comes to getting coverage. We’ve been providing protection to businesses of all sizes and types for over ten years." 
+                    FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"/>
+
+            <Label Text="Outstanding Customer Support" FontAttributes="Bold" Margin="5,0,0,0" TextColor="#1B5C9C" FontSize="20"/>
+            <Label Text="We’re known for our outstanding customer support services. We’ll perform a thorough analysis of your business operations and develop a cost effective business insurance plan that protects you from any losses that may occur. You can apply for coverage on line or over the phone. We can have you covered in no time.
+
+" FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"/>
+
+            <Label Text=""/>
+            <Label Text="Our agents are familiar with all the local, state and national rules and regulations regarding business insurance." FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"/>
+            <Label Text=""/>
+
+            <Label Text="And if the worst should happen, we’ll be there to provide you with a fast, satisfactory resolution to any claims you have to file." FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"/>
+
+            <Label Text=""/>
+
+            <Label Text="Contact AIS and let us provide you with an affordable business insurance plan that protects your business from the risks of doing business." FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"/>
+
+
+            
+        </StackLayout>
+    </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

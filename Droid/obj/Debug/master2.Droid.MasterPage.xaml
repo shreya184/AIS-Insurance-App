@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="master2.MasterPage"
+	Padding = "0,50,0,0"
+	Title = "Menu"
+	Icon="hamburger.png"
+	BackgroundColor="#1B5C9C"
+
+	>
+	<ContentPage.Content>
+		<StackLayout VerticalOptions = "FillAndExpand" >
+			<ListView x:Name = "listView" VerticalOptions = "FillAndExpand" SeparatorVisibility = "None"  BackgroundColor="#1B5C9C">
+				<ListView.ItemTemplate >
+					<DataTemplate>
+						<ImageCell Text = "{Binding Title}" ImageSource = "{Binding IconSource}" TextColor="White"></ImageCell>
+					</DataTemplate>	
+				</ListView.ItemTemplate>
+			</ListView>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

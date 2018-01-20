@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="master2.AgentContactUser">
+	<ContentPage.Content>
+
+		<StackLayout>
+            <Label Text = "Agent will Contact you within a day" TextColor="#1B5C9C" HorizontalOptions="Center" VerticalOptions="Center"> </Label>    
+        
+            <!--<Label Text = "Go to Insurance Selection page " TextColor="#1B5C9C" HorizontalOptions="Center"></Label> -->
+           </StackLayout>  
+		
+	</ContentPage.Content>
+</ContentPage>

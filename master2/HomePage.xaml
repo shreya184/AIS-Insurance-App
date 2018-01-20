@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="master2.HomePage"
+	Title="Welcome"
+		BackgroundColor="#F2F2F2">
+	<ScrollView>
+		<StackLayout VerticalOptions = "FillAndExpand" >
+
+			<!--<Image Source = "AISLOGO.png"></Image>-->
+			<Label Text=""></Label>
+
+				<Image Source = "welcomeimage.jpg"></Image>
+
+		<Label Text = "We provide following services" HorizontalTextAlignment="Center" TextColor ="#1B5C9C"></Label>
+
+	
+		<Grid HorizontalOptions="Center" Margin="3,0,3,0">
+			<Grid.RowDefinitions>
+			<RowDefinition Height="60"></RowDefinition>
+				
+			</Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="58"></ColumnDefinition>
+				<ColumnDefinition Width="58"></ColumnDefinition>
+				<ColumnDefinition Width="58"></ColumnDefinition>
+				<ColumnDefinition Width="58"></ColumnDefinition>
+				<ColumnDefinition Width="58"></ColumnDefinition>
+				
+			</Grid.ColumnDefinitions>
+			
+
+				<Button Grid.Row="0" Grid.Column="0" Image="HI.png" Clicked="Handle_Clicked_Health"/>
+				<Button Grid.Row="0" Grid.Column="1" Image="IndI.png" Clicked="Handle_Clicked_Individual"/>
+				<Button Grid.Row="0" Grid.Column="2" Image="BI.png" Clicked="Handle_Clicked_Business"/>
+				<Button Grid.Row="0" Grid.Column="3" Image="SI.png" Clicked="Handle_Clicked_Student"/>
+				<Button Grid.Row="0" Grid.Column="4" Image="VI.png" Clicked = "Handle_Clicked_Visitor"/>
+ 
+			</Grid>
+
+
+
+					<Label Text = "New User" TextColor="#1B5C9C" HorizontalOptions ="Center" ></Label>
+					<Button Text = "Sign Up" Clicked ="Handle_Clicked_SignUp" TextColor="#1B5C9C"></Button>
+		
+					<Label Text = "Already a User?" TextColor="#1B5C9C" HorizontalOptions ="Center"></Label>
+					<Button Text = "Sign In" Clicked = "Handle_Clicked_SignIn" TextColor="#1B5C9C"></Button>
+
+		
+		<Image Source="C.png" Margin="0,85,0,0"></Image>
+
+		</StackLayout> 
+		</ScrollView>
+	<ContentPage.Content>
+	</ContentPage.Content>
+</ContentPage>

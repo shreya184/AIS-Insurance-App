@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="master2.signIn" Title = "SignIn" BackgroundColor="#F2F2F2">
+	<ContentPage.Content>
+<StackLayout>
+        <Grid>    
+            
+	        <Label Grid.Column = "0" Grid.Row = "0" Text = "User Name:" TextColor="#1B5C9C" Margin="10"/> 
+	            
+	        <Entry Grid.Column = "1" Grid.Row = "0" Placeholder = " Enter Your Registered Email" Margin="10" Grid.RowSpan="1" x:Name="userName"/>
+
+	        <Label Grid.Column = "0" Grid.Row = "1" Text = "Password:" TextColor="#1B5C9C" Margin="10"/> 
+	            
+	        <Entry Grid.Column = "1" Grid.Row = "1" Placeholder = " Enter Password" Margin="10" IsPassword="true" x:Name="password"/>
+
+    	</Grid>
+
+    <Button Text = "SignIn"
+            HorizontalOptions = "Center" Clicked="SignInUserInApplication"
+            />
+
+			<Button Text = "Forget Password?" HorizontalOptions = "Center" Clicked="Handle_Clicked_Forget"/>
+			<ActivityIndicator x:Name = "SigninIndicator" HorizontalOptions = "CenterAndExpand" Color = "#1B5C9C" Scale = "2" ></ActivityIndicator>		
+		
+    </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

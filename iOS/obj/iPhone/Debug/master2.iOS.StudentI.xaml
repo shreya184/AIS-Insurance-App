@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="master2.StudentI">
+    <ContentPage.Content>
+        <ScrollView>
+
+    <StackLayout>
+                <Image Source="StudentI.png"></Image>
+                <Label Text="Student Insurance" FontSize="20" FontAttributes="Bold" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text="Advanced Insurance Services ,Agency Inc. is a trusted provider of comprehensive health and travel insurance plans for international and domestic students attending colleges and universities in the US. Our insurance policies give you no hassle access to excellent medical care and treatment along with protecting you from outrageous medical bills." FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text=""></Label>
+                <Label Text="It’s important to get student medical insurance coverage" FontAttributes="Bold" FontSize="20" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text="Here’s some of the reasons students need medical insurance coverage:" FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text="• In many countries, the government provides healthcare to its citizens. In the US an individual is responsible for purchasing his own insurance." FontSize="14" Margin="26,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text="• The costs for even a minor medical emergency can cost thousands of dollars." FontSize="14" Margin="26,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text="• Being enrolled in a health insurance plan is often a mandatory requirement for many schools and colleges." FontSize="14" Margin="26,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text="• To be in compliance with the ACA" FontSize="14" Margin="26,0,0,0" TextColor="#1B5C9C"></Label>
+
+                <Label Text=""></Label>
+
+                <Label Text="Cheap student health insurance plans" FontAttributes="Bold" FontSize="20" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text=""></Label>
+                <Label Text="You can afford to get great medical coverage, even on a mac and cheese/ramen noodle budget. AIS offer plans specifically designed to meet your school’s requirements while at the same time giving you a wide range of affordable student health insurance options to choose from including HMOs, PPOs." FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text=""></Label>
+                <Label Text="Great health insurance deals for students" FontAttributes="Bold" FontSize="20" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text=""></Label>
+                <Label Text="As a student, you can get great deals on health insurance by working with an independent insurance company like AIS. The process is simple. Once we’ve collected some basic information (like your age, whether or not you use tobacco products, if you have any pre-existing conditions, and any prescribed medications you are taking, etc.) our experienced agents will get to work and find you a plan that delivers the coverage you need at a price you can afford." FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text=""></Label>
+                <Label Text="Domestic and international student healthcare" FontAttributes="Bold" FontSize="20" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text=""></Label>
+                <Label Text="Don’t let emergency medical costs derail your education. Student insurance means you and your parents have one less thing to worry about. With a student insurance medical plan from AIS you can concentrate on your education, knowing you have access to excellent healthcare and protection against high medical costs." FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text=""></Label>
+                <Label Text="We’re a fully licensed, nationally recognized independent insurance company. Being an independent insurance company means we can get you the best student medical coverage on the market. We’ve been providing domestic and international student health insurance for over ten years. Give us a call and let us show you how easy it is to get covered." FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+        </StackLayout>
+
+
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

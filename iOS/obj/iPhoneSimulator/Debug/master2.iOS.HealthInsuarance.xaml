@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="master2.HealthInsuarance">
+	<ContentPage.Content>
+<ScrollView>
+        <StackLayout>
+            <Image Source="HealthInsuarance.png"></Image>
+                
+                <Label Text="Employee Group Health Plans" FontSize="20" FontAttributes="Bold" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text="Advanced Insurance Services (AIS), Agency Inc. has been helping employers all over the US get quality healthcare for their employees for over 10 years." FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+
+                <Label Text="The best healthcare coverage from top insurance providers" FontAttributes="Bold" FontSize="20" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text="We provide your employees with access to the top insurance providers including:" FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+
+                <Label Text="• Aetna" FontSize="14" Margin="26,0,0,0" TextColor="#1B5C9C"></Label>
+
+                <Label Text="• Blue Cross Blue Shield of Texas" FontSize="14" Margin="26,0,0,0" TextColor="#1B5C9C"></Label>
+
+                <Label Text="• ALL SAVERS" FontSize="14" Margin="26,0,0,0" TextColor="#1B5C9C"></Label>
+
+                    <Label Text="• Cigna" FontSize="14" Margin="26,0,0,0" TextColor="#1B5C9C"></Label>
+                    <Label Text="• Humana" FontSize="14" Margin="26,0,0,0" TextColor="#1B5C9C"></Label>
+                    <Label Text="• Starmark" FontSize="14" Margin="26,0,0,0" TextColor="#1B5C9C"></Label>
+                    <Label Text="• Allied" FontSize="14" Margin="26,0,0,0" TextColor="#1B5C9C"></Label>
+                    <Label Text="• Assurant" FontSize="14" Margin="26,0,0,0" TextColor="#1B5C9C"></Label>
+                    <Label Text="• United Healthcare" FontSize="14" Margin="26,0,0,0" TextColor="#1B5C9C"></Label>
+                    <Label Text="• Crescent GAP" FontSize="14" Margin="26,0,0,0" TextColor="#1B5C9C"></Label>
+                    <Label Text="• Kaiser" FontSize="14" Margin="26,0,0,0" TextColor="#1B5C9C"></Label>
+                
+                <Label Text="" ></Label>
+
+                <Label Text="Get your employees the health insurance they need" FontAttributes="Bold" FontSize="20" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text="" ></Label>
+                
+                <Label Text="Your employees can choose from a wide range of plans including:" FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text="" ></Label>
+                
+                <Label Text="Health Maintenance Organization (HMO) Plans" FontAttributes="Bold" FontSize="20" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text="" ></Label>
+                
+                <Label Text="With a health maintenance organization (HMO) health plan, employees pick a primary care physician. All their health care services go through a single office. Going through a single primary care provider results in lower health care costs." FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text="" ></Label>
+                <Label Text="Preferred Provider Organization (PPO) Plans" FontAttributes="Bold" FontSize="20" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text="" ></Label>
+                
+                <Label Text="A Preferred Provider Organization (PPO) health plans give your employees access to a network of participating health care providers – doctors, specialists, hospitals, etc. – that have come together to provide medical services for discounted fees." FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text="" ></Label>
+                <Label Text="Point of Service (POS) Plans" FontAttributes="Bold" FontSize="20" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text="" ></Label>
+                <Label Text="A Point of Service (POS) plan combines features of both HMO and PPO plans. Employees can select a network physician as their primary care provider or they can go outside the network for their health care needs. Benefit levels vary, depending on whether employees receive health care in or out of the insurance company’s network of providers. Employees save money if they choose a physician from within the network; going outside the network could result in higher out of pocket expenses." FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text="" ></Label>
+                <Label Text="Health Savings Account (HSA) Plans" FontAttributes="Bold" FontSize="20" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text="" ></Label>
+                <Label Text="A Health Savings Account (H S A) is a savings account that employees can use to pay for a wide range of medical expenses. Like an IRA, money contributed to the H S A earns interest and (up to a certain limit) is not subject to federal income taxes. Account balances are rolled over from year to year." FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text="" ></Label>
+                <Label Text="Affordable employee health care" FontAttributes="Bold" FontSize="20" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text="" ></Label>
+                <Label Text="AIS shows you how easy it is to get health insurance for your company and employees. We’re a nationally rated insurance company, with a reputation for superior customer service and providing cost effective healthcare plans to employees all over the US." FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text="" ></Label>
+                <Label Text="We’re here to provide support and answer any questions you and your employees may have. We make getting coverage easy." FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text="" ></Label>
+                <Label Text="Being an independent insurance company allows us to shop around and get your employees the best deals available in the healthcare marketplace." FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text="" ></Label>
+                <Label Text="Contact AIS today and let us show you the many options available when it comes to getting quality healthcare benefits for your employees." FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+
+        </StackLayout>
+    </ScrollView>    
+    </ContentPage.Content>
+</ContentPage>

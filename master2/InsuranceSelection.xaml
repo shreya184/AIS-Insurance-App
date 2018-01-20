@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="master2.InsurancceSelection">
+    <ContentPage.Content>
+    <StackLayout>
+        <Grid HorizontalOptions = "FillAndExpand">
+            <Label Text = "Select Insurance type" Grid.Row = "0"></Label>    
+            <Picker Grid.Row = "1" x:Name="InsuranceOptionPicker" SelectedIndex="{Binding Insurances}" >
+                <Picker.Items>
+                    <x:String>Health</x:String> 
+                    <x:String>Individual</x:String>
+                    <x:String>Visitors</x:String>
+                </Picker.Items>
+            </Picker> 
+                <Label Text = "Picker 2" Grid.Row = "2"></Label>
+                <Picker Grid.Row = "3" x:Name = "Options" SelectedIndex = "{Binding Options}">
+                    <Picker.Items>
+                        <x:String> 1</x:String>
+                        <x:String> 2</x:String>
+                        <x:String> 3</x:String>
+                    </Picker.Items>
+                </Picker>
+        </Grid>
+    </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

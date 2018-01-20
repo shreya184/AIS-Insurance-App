@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="master2.VistorInsuranceInfo">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+
+        <Image Source="VisitorIns.png" ></Image>
+
+        <Label Text="Visitor Insurance" FontSize="20" FontAttributes="Bold" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+        <Label Text="Advanced Insurance Services,Agency Inc. visitor health insurance plans can provide you and your relatives with full coverage protection while visiting the United States." FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"/>
+
+            <Label Text=""/>
+
+            <Label Text="In many instances the national or government sponsored health plans of other countries don’t cover medical emergencies that occur while visiting the US. These visitor medical insurance plans have been designed to pay for any medical expenses that may arise while in the US." FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"/>
+
+
+            <Label Text="Visitors Insurance provides excellent protection for:"
+                    
+                    FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"/>
+
+            <Label Text=""/>
+
+                <Label Text="• International students" FontSize="14" Margin="26,0,0,0" TextColor="#1B5C9C"></Label>
+                    <Label Text="• Business travelers" FontSize="14" Margin="26,0,0,0" TextColor="#1B5C9C"></Label>
+                    <Label Text="• Green Card Holders And Immigrants" FontSize="14" Margin="26,0,0,0" TextColor="#1B5C9C"></Label>
+                    <Label Text="• Visa holders" FontSize="14" Margin="26,0,0,0" TextColor="#1B5C9C"></Label>
+                    <Label Text="• Relatives visiting family members in the U.S." FontSize="14" Margin="26,0,0,0" TextColor="#1B5C9C"></Label>
+                    <Label Text="• Tourists" FontSize="14" Margin="26,0,0,0" TextColor="#1B5C9C"></Label>
+                    <Label Text="Get your employees the health insurance they need" FontAttributes="Bold" FontSize="20" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text="" ></Label>
+                
+                <Label Text="Visitors insurance is easy to get" FontSize="20" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text="" ></Label>
+                
+                <Label Text="AIS makes it easy to get top rated Visitors Insurance. No medical exam is required. You can purchase and renew your plan online. All we require is a date of birth, passport number, and the name and travel dates of the traveler. Short term (as little as five days) and long term plans (up to 364 days) are available." FontAttributes="Bold" FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text="" ></Label>
+                
+                <Label Text="AIS welcomes visitors from India and other countries" FontSize="20" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text="" ></Label>
+                <Label Text="We specialize in providing visitors insurance plans to travelers from all countries." FontAttributes="Bold" FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text="" ></Label>
+                
+                <Label Text="Purchasing a visitors insurance in the USA from AIS delivers many advantages versus buying a plan in your native country. AIS is headquartered in the US. Our representatives have the necessary knowledge and experience of US healthcare laws and billing procedures to provide our customers with the best service and support possible while in the US." FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text="" ></Label>
+                <Label Text="Visitors insurance makes good sense" FontAttributes="Bold" FontSize="20" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text="" ></Label>
+                <Label Text="Visitors insurance is a good sense investment for anyone visiting the USA. No matter why you’re visiting the US, the last thing you want to deal illness or accidents and the medical costs they incur. With an AIS visitors insurance plan you and your relatives don’t have to worry about taking care of any emergency medical bills – we have you covered." FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text="" ></Label>
+
+                <Label Text="Affordable visitors insurance through AIS" FontAttributes="Bold" FontSize="20" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text="" ></Label>
+                <Label Text="AIS is a full licensed, nationally recognized insurance company with offices all across the USA. We’re an independent insurance agency which means we can shop around and get you the best deals on the market." FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text="" ></Label>
+                <Label Text="If you’re preparing for a trip to the US contact AIS to find out how affordable and comprehensive our visitors medical insurance plans are." FontSize="16" Margin="5,0,0,0" TextColor="#1B5C9C"></Label>
+                <Label Text="" ></Label>
+
+                
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

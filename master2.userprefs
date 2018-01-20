@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{588ABF07-2534-4A1B-A2DE-0C6AA5A9EF76}|Default">
+  <MonoDevelop.Ide.ItemProperties.master2.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.85B40084-067F-4153-95DF-F99EEC9ADFF7" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="master2/InsuaranceSelection.xaml.cs">
+    <Files>
+      <File FileName="master2/VisitorInsuranceQuickQuotePage.xaml.cs" Line="39" Column="34" />
+      <File FileName="master2/VisitorInsuranceQuickQuotePage.xaml" Line="1" Column="1" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="master2/InsuaranceSelection.xaml" Line="1" Column="1" />
+      <File FileName="master2/InsuaranceSelection.xaml.cs" Line="40" Column="1" />
+      <File FileName="master2/VisitorMedicalInsuranceQuotePage.xaml.cs" Line="16" Column="55" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="/Users/JR/Projects/master2/master2/MasterPage.xaml.cs" line="10" column="43" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.master2.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MultiItemStartupConfigurations />
+</Properties>
